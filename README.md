@@ -1,4 +1,6 @@
-This is a simple blog site using firebase, react and typescript to demonstrate CRUD operation without SQL.
+This is a simple blog site using firebase and react.
+
+Purpose: to demonstrate CRUD operation without SQL.
 
 View site here: https://simplelogindemo.netlify.app/
 
