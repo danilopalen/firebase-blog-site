@@ -51,8 +51,18 @@ export default function Home() {
               gutterBottom
               style={{ marginTop: '100px' }}
             >
-              Blog
+              Blogs
             </Typography>
+            {comments.length === 0 && (
+              <Typography
+                variant="h5"
+                component="h5"
+                gutterBottom
+                style={{ marginTop: '100px' }}
+              >
+                There are no Blogs to display
+              </Typography>
+            )}
             {comments &&
               comments.map((data, index) => {
                 const { id, comment } = data;
